@@ -17,6 +17,7 @@ function validar(event) {
   if (inputCard == "") {
     console.log("el campo card esta vacio");
   }
+  
   const inputCVC = document.getElementById('CVC').value
   if (inputCVC == "") {
     console.log("el campo CVC esta vacio");
@@ -24,11 +25,31 @@ function validar(event) {
   const inputamount = document.getElementById('amount').value
   if (inputamount == "") {
     console.log("el campo amount esta vacio");
-  }
+  } 
 
   const inputfirstname = document.getElementById('firstname').value
   if (inputfirstname == "") {
-    console.log("el campo amount esta vacio");
+    console.log("el campo firstname esta vacio");
+  }
+
+  const inputlastname = document.getElementById('lastname').value
+  if (inputlastname == "") {
+    console.log("el campo lastname esta vacio");
+  }
+
+  const inputcity = document.getElementById('city').value
+  if (inputcity == "") {
+    console.log("el campo city esta vacio");
+  }
+
+  const inputstate = document.getElementById('state').value
+  if (inputstate == "") {
+    console.log("el campo state esta vacio");
+  }
+
+  const inputpostalcode = document.getElementById('postalcode').value
+  if (inputpostalcode == "") {
+    console.log("el campo postalcode esta vacio");
   }
 
 
