@@ -30,15 +30,16 @@
         <h4>Payment form example</h4>
       </div>
       <div class="card-body">
-        <div class="alert alert-danger d-none" role="alert">
+        <div id="alerta" class="alert alert-danger" role="alert">
           <div class="row-12-auto"></div> <!--SOMEFIELD MISSING ALERTA-->
           Some fields are missing!
         </div>
-
         <div class="row">
           <fieldset class="col-5"> <!--CONTENIDO DEL DATO SOLICITADO-->
             <label for="cardnumber" class="form-label">Card number #</label>
             <input type="number" class="form-control" id="cardnumber" placeholder="xxxxxxxxxxxxxxxxxx">
+            <div>   
+            </div>
           </fieldset>
           <fieldset class="col-3"> <!--CONTENIDO COMPLETO DE MI CARD-->
             <label for="CVC" class="form-label">CVC #</label>
@@ -99,7 +100,7 @@
       </div>
       <div class="card-footer d-grid gap-2 d-flex justify-content-end pb-3 pt-4 px-3">
         <button class="btn btn-primary me-md-2" type="button">Cancel</button>
-        <button id="send" class="btn btn-success" type="button">Send</button>
+        <button id="send" class="btn btn-success" type="Submit">Send</button>
       </div>
     </div>
   </form>
